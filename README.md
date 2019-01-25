@@ -1,12 +1,10 @@
-# PA9: Pinball (Lighting)
+# Pinball
+
+## Original Authors
 
 ### Enzo Arata
 ### Evan Brown
 ### Zach Mcilwain
-```
-This is the repository to be graded.
-This project was ran and tested on the Debian Stretch partition in ECC.
-```
 
 ## Controls
 
@@ -82,22 +80,5 @@ mkdir build
 cd build
 cmake ..
 make
-./PA8
-```
-
-### Makefile Instructions
-The makefile works as expected and must be updated with new files added in.
-
-```bash
-mkdir build
-cd build
-cp ../makefile .
-make
-./PA8
-```
-
-## Ubuntu.cse.unr.edu
-OpenGL 3.3 will run on the [ubuntu.cse.unr.edu](https://ubuntu.cse.unr.edu/) website. To do so follow the build instructions, but when running the PA8 executable use this line to execute.
-```bash
-/usr/NX/scripts/vgl/vglrun ./PA8
+./Pinball
 ```
