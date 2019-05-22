@@ -8,12 +8,12 @@
 
 Object::Object(std::string objFilePath, std::string texFilePath, float Mass, float Inertia, btVector3 pos)
 {
-  if (!LoadObjFile(MODEL_DIR + objFilePath))
+  if (!LoadObjFile(ASSET_DIR + objFilePath))
   {
     std::cerr << "Failure to load file" << std::endl;
     exit(1);
   }
-  LoadTexFile(MODEL_DIR + texFilePath, 0);
+  LoadTexFile(ASSET_DIR + texFilePath, 0);
   //position = glm::vec3(pos.x(), pos.y(), pos.z());
   ambIntensity = 0.0;
   diffIntensity = .2;

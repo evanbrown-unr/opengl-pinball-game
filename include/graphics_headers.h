@@ -26,7 +26,7 @@
 #define INVALID_UNIFORM_LOCATION 0x7fffffff
 
 // File path for all models
-#define MODEL_DIR std::string("../models/")
+#define ASSET_DIR std::string("../assets/")
 
 // ASSIMP headers
 #include <assimp/Importer.hpp>
