@@ -1,6 +1,6 @@
 # Pinball
 
-## Original Authors
+## Developers
 
 ### Enzo Arata
 ### Evan Brown
@@ -12,19 +12,19 @@
 ```
 ESC - end program
 
-DOWN - launch ball
+DOWN - launch ball (hold)
 LEFT - left paddle
 RIGHT - right paddle
 ```
 
 ### Camera
 ```
-w - pan up
-a - pan left
-s - pan down
-d - pan right
-q - pan out
-e - pan in
+W - pan up
+A - pan left
+S - pan down
+D - pan right
+Q - pan out
+E - pan in
 ```
 
 # Dependencies, Building, and Running

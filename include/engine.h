@@ -3,7 +3,6 @@
 
 #include <sys/time.h>
 #include <assert.h>
-#include <SDL2/SDL_mixer.h>
 
 #include "window.h"
 #include "graphics.h"
